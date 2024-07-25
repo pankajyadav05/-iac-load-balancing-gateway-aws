@@ -18,7 +18,7 @@
 
 ## Objective
 
-Create a scalable and highly available infrastructure using AWS services, specifically implementing an API Gateway with load balancing for backend services.
+Create a scalable and highly available infrastructure using AWS services, with load balancing.
 
 ## Requirements
 
@@ -28,15 +28,11 @@ Create a scalable and highly available infrastructure using AWS services, specif
    - AWS CloudFormation
    - Terraform
 
-2. Create an API Gateway that routes requests to backend services.
+2. Implement a load balancing solution for the backend services to ensure high availability and scalability.
 
-3. Implement a load balancing solution for the backend services to ensure high availability and scalability.
+3. Set up at least two EC2 instances as backend services running a simple web application (e.g., a "Hello World" app).
 
-4. Set up at least two EC2 instances as backend services running a simple web application (e.g., a "Hello World" Node.js or Python app).
-
-5. Configure appropriate security groups and network access controls.
-
-6. Implement basic monitoring and logging for the infrastructure.
+4. Configure appropriate security groups and network access controls.
 
 ## Detailed Steps
 
@@ -52,6 +48,4 @@ Create a scalable and highly available infrastructure using AWS services, specif
 
 6. Configure the ALB to forward traffic to the target group.
 
-7. Set up an API Gateway with a REST API that integrates with the ALB.
-
-8. Implement appropriate security groups for the EC2 instances and the ALB.
+7. Implement appropriate security groups for the EC2 instances and the ALB.
